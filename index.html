@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TechFix Lab Cagliari — Riparazione smartphone e PC</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <img src="logo_clean.png" alt="TechFix Lab Cagliari">
+    <span>TechFix Lab<small>Cagliari</small></span>
+  </div>
+  <nav>
+    <ul id="navList">
+      <li><a href="#servizi">Servizi</a></li>
+      <li><a href="#chi-siamo">Chi siamo</a></li>
+      <li><a href="#contatti">Contatti</a></li>
+    </ul>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Apri menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <div class="eyebrow">Cagliari · Riparazioni rapide</div>
+      <h1>Il tuo dispositivo, <em>tornato a galla.</em></h1>
+      <p class="lead">
+        Smartphone, tablet e computer riparati con cura artigianale a Cagliari. 
+        Diagnosi trasparente, ricambi di qualità e tempi rapidi: il tuo device
+        torna operativo senza sorprese.
+      </p>
+      <div class="hero-actions">
+        <a href="#contatti" class="btn btn-primary">Richiedi un preventivo</a>
+        <a href="#servizi" class="btn btn-ghost">Scopri i servizi</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <img src="logo_clean.png" alt="Logo TechFix Lab Cagliari">
+    </div>
+  </div>
+</section>
+
+<!-- coastline signature divider -->
+<svg class="coast" viewBox="0 0 1024 90" preserveAspectRatio="none" aria-hidden="true">
+  <path d="M0,55 C40,30 70,70 110,50 C140,35 170,45 200,42 C260,36 320,18 400,20 C480,22 540,40 620,32 C700,24 780,12 860,18 C920,22 980,30 1024,28" />
+</svg>
+
+<!-- ===== SERVIZI ===== -->
+<section class="servizi" id="servizi">
+  <div class="section-head">
+    <div class="eyebrow">Cosa riparo</div>
+    <h2>Servizi su misura, dispositivo per dispositivo</h2>
+    <p>Dalla sostituzione di un display rotto alla bonifica di un PC infettato: ogni intervento parte da una diagnosi onesta, prima di ogni preventivo.</p>
+  </div>
+
+  <div class="service-grid">
+
+    <div class="service-card">
+      <div class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="2"/><line x1="11" y1="18" x2="13" y2="18"/></svg>
+      </div>
+      <h3>Smartphone &amp; Tablet</h3>
+      <p>Riparazioni rapide per i dispositivi che usi ogni giorno.</p>
+      <ul>
+        <li>Sostituzione display e vetro</li>
+        <li>Cambio batteria</li>
+        <li>Riparazione porta di ricarica</li>
+        <li>Recupero da danni da liquidi</li>
+        <li>Sostituzione fotocamere e speaker</li>
+      </ul>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+      </div>
+      <h3>Computer &amp; Notebook</h3>
+      <p>Manutenzione, upgrade e assistenza per PC fissi e portatili.</p>
+      <ul>
+        <li>Upgrade SSD e RAM</li>
+        <li>Rimozione virus e malware</li>
+        <li>Sostituzione schermo e tastiera</li>
+        <li>Pulizia interna e pasta termica</li>
+        <li>Recupero dati e reinstallazione sistema</li>
+      </ul>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+      </div>
+      <h3>Diagnosi &amp; Consulenza</h3>
+      <p>Non sai cosa non va? Ci penso io: diagnosi gratuita prima di qualsiasi intervento.</p>
+      <ul>
+        <li>Diagnosi gratuita e senza impegno</li>
+        <li>Preventivo scritto e trasparente</li>
+        <li>Consigli su acquisto e configurazione</li>
+        <li>Backup e migrazione dati</li>
+        <li>Assistenza anche a domicilio*</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== CHI SIAMO ===== -->
+<section class="chi-siamo" id="chi-siamo">
+  <div class="chi-grid">
+    <div class="chi-text">
+      <div class="eyebrow">Chi sono</div>
+      <h2>Un laboratorio, un solo tecnico, tanta cura</h2>
+      <p>
+        TechFix Lab nasce a Cagliari dalla passione per l'elettronica e dalla voglia
+        di offrire un'alternativa onesta ai grandi centri assistenza: niente attese
+        infinite, niente preventivi gonfiati.
+      </p>
+      <p>
+        Ogni dispositivo che entra in laboratorio viene trattato come se fosse il mio:
+        diagnosi accurata, ricambi selezionati e la massima trasparenza su tempi e costi,
+        dal primo contatto al ritiro.
+      </p>
+      <div class="stat-row">
+        <div>
+          <strong>48h</strong>
+          <span>Tempo medio riparazione</span>
+        </div>
+        <div>
+          <strong>100%</strong>
+          <span>Diagnosi gratuita</span>
+        </div>
+        <div>
+          <strong>1:1</strong>
+          <span>Assistenza dedicata</span>
+        </div>
+      </div>
+    </div>
+    <div class="chi-visual">
+      <img class="gear" src="logo_clean.png" alt="Dettaglio logo TechFix Lab">
+    </div>
+  </div>
+</section>
+
+<!-- wave divider before contatti -->
+<div class="wave-divider">
+  <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
+    <path d="M0,30 C150,55 350,5 600,30 C850,55 1050,5 1200,30 L1200,60 L0,60 Z" fill="#0f4c5c"/>
+  </svg>
+</div>
+
+<!-- ===== CONTATTI ===== -->
+<section class="contatti" id="contatti">
+  <div class="eyebrow">Parliamone</div>
+  <h2>Vieni a trovarci, o scrivici un messaggio</h2>
+  <p class="lead">Compila il form, chiama o passa in laboratorio: rispondiamo solitamente entro poche ore.</p>
+
+  <div class="contact-grid">
+    <div class="contact-card">
+      <span class="label">Telefono</span>
+      <div class="value">+39 000 000 0000</div>
+      <div class="sub">Lun – Sab, 9:00 – 19:00</div>
+    </div>
+    <div class="contact-card">
+      <span class="label">Indirizzo</span>
+      <div class="value">Via Esempio 12</div>
+      <div class="sub">09100 Cagliari (CA)</div>
+    </div>
+    <div class="contact-card">
+      <span class="label">Email</span>
+      <div class="value">info@techfixlab.it</div>
+      <div class="sub">Risposta entro 24h</div>
+    </div>
+    <div class="contact-card">
+      <span class="label">WhatsApp</span>
+      <div class="value">+39 000 000 0000</div>
+      <div class="sub">Anche per inviare foto del problema</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <strong>TechFix Lab Cagliari</strong> — Riparazione smartphone, tablet e computer · © 2026
+</footer>
+
+<script>
+  document.getElementById('navToggle').addEventListener('click', function(){
+    document.getElementById('navList').classList.toggle('open');
+  });
+</script>
+
+</body>
+</html>
