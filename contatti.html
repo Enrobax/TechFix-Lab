@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contatti — TechFix Lab Cagliari</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="brand" style="text-decoration:none;">
+    <img src="logo_clean.png" alt="TechFix Lab Cagliari">
+    <span>TechFix Lab<small>Cagliari</small></span>
+  </a>
+  <nav>
+    <ul id="navList">
+      <li><a href="index.html#servizi">Servizi</a></li>
+      <li><a href="index.html#chi-siamo">Chi siamo</a></li>
+      <li><a href="#contatti" class="active">Contatti</a></li>
+    </ul>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Apri menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<div class="page-spacer"></div>
+
+<!-- ===== CONTATTI ===== -->
+<section class="contatti" id="contatti">
+  <div class="eyebrow">Parliamone</div>
+  <h2>Hai un dispositivo da riparare? Scrivici.</h2>
+  <p class="lead">Lascia i tuoi dati e una breve descrizione del problema: ti ricontattiamo entro poche ore.</p>
+
+  <form class="contact-form" name="contatto" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="contatto">
+    <div class="form-row">
+      <div class="form-field">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required>
+      </div>
+      <div class="form-field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+    </div>
+    <div class="form-field">
+      <label for="messaggio">Messaggio</label>
+      <textarea id="messaggio" name="messaggio" rows="7" required placeholder="Descrivi brevemente il problema del tuo dispositivo..."></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Invia richiesta</button>
+  </form>
+
+</section>
+
+<footer>
+  <strong>TechFix Lab Cagliari</strong> — Riparazione smartphone, tablet e computer · © 2026
+</footer>
+
+<script>
+  document.getElementById('navToggle').addEventListener('click', function(){
+    document.getElementById('navList').classList.toggle('open');
+  });
+</script>
+
+</body>
+</html>
