@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contatti — TechFix Lab Cagliari</title>
+<title>Grazie — TechFix Lab Cagliari</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -20,7 +20,7 @@
     <ul id="navList">
       <li><a href="index.html#servizi">Servizi</a></li>
       <li><a href="index.html#chi-siamo">Chi siamo</a></li>
-      <li><a href="#contatti" class="active">Contatti</a></li>
+      <li><a href="contatti.html">Contatti</a></li>
     </ul>
   </nav>
   <button class="nav-toggle" id="navToggle" aria-label="Apri menu">
@@ -30,31 +30,13 @@
 
 <div class="page-spacer"></div>
 
-<!-- ===== CONTATTI ===== -->
-<section class="contatti" id="contatti">
-  <div class="eyebrow">Parliamone</div>
-  <h2>Hai un dispositivo da riparare? Scrivici.</h2>
-  <p class="lead">Lascia i tuoi dati e una breve descrizione del problema: ti ricontattiamo entro poche ore.</p>
+<!-- ===== GRAZIE ===== -->
+<section class="contatti" id="grazie" style="min-height:85vh; display:flex; flex-direction:column; align-items:center; justify-content:center;">
+  <div class="eyebrow">Richiesta inviata</div>
+  <h2>Grazie, ti abbiamo ricevuto!</h2>
+  <p class="lead">Il tuo messaggio è arrivato correttamente. Ti risponderemo via email entro 24 ore con una prima valutazione del tuo dispositivo.</p>
 
-  <form class="contact-form" name="contatto" method="POST" data-netlify="true" netlify action="/grazie.html">
-    <input type="hidden" name="form-name" value="contatto">
-    <div class="form-row">
-      <div class="form-field">
-        <label for="nome">Nome</label>
-        <input type="text" id="nome" name="nome" required>
-      </div>
-      <div class="form-field">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
-      </div>
-    </div>
-    <div class="form-field">
-      <label for="messaggio">Messaggio</label>
-      <textarea id="messaggio" name="messaggio" rows="7" required placeholder="Descrivi brevemente il problema del tuo dispositivo..."></textarea>
-    </div>
-    <button type="submit" class="btn btn-primary">Invia richiesta</button>
-  </form>
-
+  <a href="index.html" class="btn btn-primary">Torna alla home</a>
 </section>
 
 <footer>
