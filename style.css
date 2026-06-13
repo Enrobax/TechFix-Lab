@@ -514,7 +514,7 @@ footer strong{color:#fff;}
 @media (max-width:860px){
   nav ul{
     position:fixed;
-    top:78px; left:0; right:0;
+    left:0; right:0;
     flex-direction:column;
     background:var(--paper);
     padding:24px 6% 32px;
@@ -523,7 +523,10 @@ footer strong{color:#fff;}
     transform:translateY(-130%);
     transition:transform .3s ease;
   }
-  nav ul.open{transform:translateY(0);}
+  nav ul.open{
+    transform:translateY(0);
+    top: 70px;
+  }
   .nav-toggle{
     display:flex;
     flex-direction:column;
